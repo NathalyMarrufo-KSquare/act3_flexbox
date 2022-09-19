@@ -48,6 +48,7 @@
 
 .pass-link{
     margin-left: 25px;
+    cursor: pointer;
 }
 
 a.format-label{
