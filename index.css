@@ -90,10 +90,6 @@ button.format-label:hover{
     border-style: solid;
     border-color: white;
 }
-.ggl-icon{
-    height: 15px;
-    position: initial;
-}
 
 button.format-label.ggle{
     margin-top: 10px;
@@ -111,6 +107,10 @@ button.format-label.ggle:hover{
     border-color: black;
 }
 
+.ggl-icon{
+    height: 15px;
+    position: initial;
+}
 
 .new-account{
     text-align: center;
