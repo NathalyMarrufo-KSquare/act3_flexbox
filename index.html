@@ -5,6 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500&family=Quicksand&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
     <link rel="stylesheet" href="index.css">
     <title>Document</title>
    
@@ -12,21 +19,37 @@
 <body class="content">
     <div class="login-container">
         <section class="login-content">
-            <h1>Welcome back</h1>
-            <h4>Welcome back! Please enter your details.</h4>
+            <h1 class="title-font">Welcome back</h1>
+            <h4 class="subtitle-font">Welcome back! Please enter your details.</h4>
             <form action="">
-                <label for="">Email</label><br>
-                <input type="email" name="" id=""><br>
-                <label for="">Password</label><br>
-                <input type="password"><br>
-                <input type="checkbox"> <label for="">Remember for 30 days</label> <p><a href="">Forgot password</a></p>
-                <button>Sign in</button><br>
-                <button>Sign in with Google</button><br>
-                <label for="">Don't have an account?<a href="">Sign up for free</a></label> 
-            </form>
+                <label class="format-label" for="">Email</label><br>
+                <input class="box-desing" type="email" name="" id="" placeholder="Enter your email" ><br>
+                <label class="format-label" for="">Password</label><br>
+                <input class="box-desing" type="password" placeholder="●●●●●●●●"><br>
+                <input class="check-desing" type="checkbox"> <label class="format-label" for="">Remember for 30 days <a class="format-label pass-link" href="">Forgot password</a></label> <br>
+                <button class="format-label">Sign in</button><br>
+                <button class="format-label  ggle"><img class="ggl-icon" src="https://cdn-icons-png.flaticon.com/512/2991/2991148.png" alt=""> Sign in with Google</button><br>
+                <p class="new-account"><label class="format-label label-gray " for="">Don't have an account? <a class="format-label" href="">Sign up for free</a></label> 
+                </p>
+                </form>
         </section>
+
          <div class="review-content">
-        <img src="https://images.pexels.com/photos/3790805/pexels-photo-3790805.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
+        <img class="image" src="https://images.pexels.com/photos/5163445/pexels-photo-5163445.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" >
+       <div class="testimon-container"> 
+        <p class="testimon-text">"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod incidunt omnis doloremque ab ex voluptatum!"</p><br>
+            <p class="stars">★★★★★</p>
+            <p class="format-label user-testim testimon-text">Jhon Doe</p>
+            <div class="user-containter">
+            <p class="format-label user-testim user-position">Lorem, ipsum.</p>
+            <p class="format-label user-testim user-descript">Lorem, ipsum dolor.</p>
+            </div>
+                 <div class="btn-containter">
+                    <button class="arrow-button"><span class="material-symbols-outlined">arrow_back</span></button>
+                    <button class="arrow-button"><span class="material-symbols-outlined">arrow_forward</span></button>
+                 </div>
+            
+    </div>
     </div>
     
     </div>
